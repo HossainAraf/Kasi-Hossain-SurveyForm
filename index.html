@@ -11,7 +11,11 @@
    <h1 id="title">Sample Survey form</h1>
    <p id = "description">Thank your for taking the time.</p>
    <form action="survey-form">
-    
+    <label for="fname">Name:</label><br>
+    <input id = "name" type="text" name = "name" placeholder=" Write down your name" required><br>
+    <label for="email">Email:</label><br>
+    <input id = "email" type="email"  pattern=".+@gmail\.com" size="30" placeholder=" Write down your Email id" required>
+
    </form>
   </body>
 </html>
